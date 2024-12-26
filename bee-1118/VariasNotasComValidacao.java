@@ -1,5 +1,4 @@
-import java.io.IOException;
-import java.util.Scanner; 
+
 /**
 Escreva um programa para ler as notas da primeira e a segunda avaliação de um aluno. Calcule e imprima a média semestral. O programa só deverá aceitar notas válidas (uma nota válida deve pertencer ao intervalo [0,10]). Cada nota deve ser validada separadamente.
 
@@ -34,7 +33,11 @@ novo calculo (1-sim 2-nao)
 media = 8.50
 novo calculo (1-sim 2-nao)
  */
-public class Main {
+
+import java.io.IOException;
+import java.util.Scanner; 
+
+public class VariasNotasComValidacao {
  
     public static void main(String[] args) throws IOException {
         Scanner scan = new Scanner(System.in);
