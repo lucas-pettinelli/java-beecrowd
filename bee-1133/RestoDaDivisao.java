@@ -35,6 +35,7 @@ public class RestoDaDivisao {
 			y = x;
 			x = aux;
 		}
+		scan.close();
 
 		y++;
 		for (; x > y; y++) {
@@ -42,7 +43,7 @@ public class RestoDaDivisao {
 			if ((y % 5 == 2 || y % 5 == 3) && !(y % 5 == 2 && y % 5 == 3))
 				System.out.println(y);
 		}
-        scan.close();
+        
     }
  
 }
